@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+
+:root {
+  --bg: #0b0c10;
+
+  --card: #111827;
+  --border: #1f2937;
+
+  --primary: #66fcf1;
+  --secondary: #45a29e;
+
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+
+  /* 🔥 NEW CONTRAST TOPBAR */
+  --topbar-bg: linear-gradient(90deg, #1f2937, #374151);
+  --topbar-border: #4b5563;
+}
+
+body {
+  margin: 0;
+
+  background: var(--bg);
+
+  color: var(--text);
+
+  font-family: 'Inter', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+
+/* body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+} */
+
+[data-theme="light"] {
+  --bg: #f9fafb;
+
+  --card: #ffffff;
+  --border: #e5e7eb;
+
+  --primary: #16a34a;
+  --secondary: #2563eb;
+
+  --text: #111827;
+  --muted: #6b7280;
+
+  /* light mode topbar */
+  --topbar-bg: linear-gradient(90deg, #ffffff, #f1f5f9);
+  --topbar-border: #e5e7eb;
+}

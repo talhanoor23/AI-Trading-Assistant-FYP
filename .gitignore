@@ -1,0 +1,36 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+app/venv/
+
+# Environment Variables
+.env
+
+# =========================
+# React / Node
+# =========================
+trading_frontend/node_modules/
+
+# Ignore unnecessary folders
+tradinggg-frontend/
+agent-frontend/
+
+# Build folders
+dist/
+build/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
